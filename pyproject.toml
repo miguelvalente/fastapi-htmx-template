@@ -1,0 +1,19 @@
+[project]
+name = "fastapi-htmx-template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.115.12",
+    "jinja2-fragments>=1.9.0",
+    "pydantic>=2.11.4",
+    "pydantic-settings>=2.9.1",
+    "rich>=14.0.0",
+    "structlog>=25.3.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.9",
+]
